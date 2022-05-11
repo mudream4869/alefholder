@@ -1,0 +1,21 @@
+textarea {
+    font-family: lucida console, courier new, courier, monospace;
+    resize: none;
+    font-size: 16px;
+    line-height: 1.2;
+    outline: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    background-color: rgba($color: #000000, $alpha: 0.0);
+    color: azure;
+}
+
+body {
+    background-color:black;
+}
+
+#showHTML {
+    color: azure;
+}

@@ -71,7 +71,7 @@ impl Component for Model {
                     <div class="col h-100">
                         <textarea class="h-100 w-100" onchange={onchange} ></textarea>
                     </div>
-                    <div class="col">
+                    <div class="col" id="showHTML">
                         <SafeHtml html={ self.html_md.clone() }/>
                     </div>
                 </div>
